@@ -1,33 +1,39 @@
+/* Reset margin, set font, and box-sizing for all elements */
 * {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
+/* Base font size for the document */
 html {
-    font-size: 16px; /* Base font size */
+    font-size: 16px;
 }
 
+/* Styles for the navigation bar */
 .navbar {
-    height: 3.75rem; 
+    height: 3.75rem;
     background-color: #0f1111;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-evenly; 
+    justify-content: space-evenly; /* Distribute items evenly */
 }
 
-/** borders **/
+/** Borders **/
 
+/* Base border style for elements */
 .border {
-    border: 0.07375rem solid transparent; 
-    border-radius: 0.2rem; 
+    border: 0.07375rem solid transparent;
+    border-radius: 0.2rem;
 }
 
+/* Border color change on hover */
 .border:hover {
-    border: 0.07375rem solid white; 
+    border: 0.07375rem solid white;
 }
 
+/* Navigation item styling */
 .nav {
     height: 3.1rem;
     display: flex;
@@ -36,34 +42,36 @@ html {
     margin-right: 0.5rem;
 }
 
-/** box1 **/
+/** Box 1: Logo **/
 
 .nav-logo {
-    height: 3.1rem; 
-    width: 7.0625rem; 
+    height: 3.1rem;
+    width: 7.0625rem;
     margin: 0 0.5rem;
-}    
+}
 
 .logo {
     background-image: url("amazon-logo.jpg");
-    height: 3rem; 
+    height: 3rem;
     width: 100%;
     background-size: cover;
 }
 
-/** box2 **/
+/** Box 2: Add Line **/
 
 .add-line-first {
     color: white;
     font-size: 0.75rem;
-    margin-left: 1.0625rem; 
+    margin-left: 1.0625rem;
 }
+
 .country {
     font-size: 0.875rem;
     font-weight: 700;
-    margin-left: 0.3125rem; 
+    margin-left: 0.3125rem;
 }
 
+/* Adjust alignment for the second line */
 .add-line-second {
     display: flex;
     align-items: center;
@@ -74,40 +82,43 @@ html {
     margin-bottom: 0.45rem;
 }
 
-/** box3 **/
+/** Box 3: Search Bar **/
 
 .nav-search {
     display: flex;
     justify-content: space-evenly;
-    width: 52rem; 
-    height: 2.8rem; 
-    border-radius: 0.25rem; 
-    border: 0.125rem solid transparent; 
+    width: 52rem;
+    height: 2.8rem;
+    border-radius: 0.25rem;
+    border: 0.125rem solid transparent;
     transition: border-color 0.3s ease;
 }
 
+/* Change border color on hover */
 .nav-search:hover {
-    border: 0.125rem solid orange; 
-    border-radius: 0.38125rem; 
+    border: 0.125rem solid orange;
+    border-radius: 0.38125rem;
 }
 
 .search-select {
     background-color: #e5e3e3;
-    width: 3.6rem; 
+    width: 3.6rem;
     text-align: center;
     color: #5d5c5c;
-    border-top-left-radius: 0.25rem; 
-    border-bottom-left-radius: 0.25rem; 
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
     outline: none;
     font-size: 0.82rem;
-    border: 0.125rem solid transparent; 
+    border: 0.125rem solid transparent;
     transition: border-color 0.1s ease;
 }
 
+/* Focus state for search select */
 .search-select:focus {
     border-color: orange;
 }
 
+/* Hover state for search select */
 .search-select:hover {
     background-color: #e0e0e0e5;
     color: black;
@@ -117,14 +128,14 @@ html {
     width: 100%;
     font-size: 0.95rem;
     border-color: transparent;
-    padding-left: 0.625rem; 
+    padding-left: 0.625rem;
     outline: none;
 }
 
 .search-button {
-    width: 2.8125rem; 
+    width: 2.8125rem;
     height: 100%;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #febd68;
@@ -132,20 +143,22 @@ html {
     font-size: 1.3rem;
     border-color: transparent;
     outline: none;
-    border-top-right-radius: 0.25rem; 
-    border-bottom-right-radius: 0.25rem; 
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
     transition: border-color 0.3s ease;
 }
 
+/* Change border color on focus */
 .search-button:focus {
-    border: 0.125rem solid orange; 
+    border: 0.125rem solid orange;
 }
 
+/* Hover state for search button */
 .search-button:hover {
     background-color: #fca730;
 }
 
-/** box4 **/
+/** Box 4: Language Selector **/
 
 .nav-language-selector {
     padding: 0.4rem 0.5rem;
@@ -161,7 +174,7 @@ html {
     font-weight: 700;
 }
 
-/** box5 **/
+/** Box 5: Sign-In and Account **/
 
 .sign-in-first-line {
     color: white;
@@ -173,7 +186,7 @@ html {
     font-weight: 700;
 }
 
-/** box6 **/
+/** Box 6: Returns and Orders **/
 
 .return {
     font-size: 0.75rem;
@@ -185,7 +198,7 @@ html {
     font-weight: 700;
 }
 
-/** box7 **/
+/** Box 7: Cart **/
 
 .cart-icon {
     font-size: 1.7rem;
@@ -199,7 +212,7 @@ html {
     padding-bottom: 0.5rem;
 }
 
-/** menu panel **/
+/** Menu Panel **/
 
 .panel {
     width: 100%;
@@ -227,19 +240,19 @@ html {
     margin-right: 0.25rem;
 }
 
-/** panel options **/
-
-.panel-options p {
-    display: flex;
-    align-items: center;
-    padding: 0 0.6rem; 
-}
+/** Panel Options **/
 
 .panel-options {
     height: 2.4rem;
     width: 82%;
     display: flex;
-    margin-left: -0.3125rem; 
+    margin-left: -0.3125rem;
+}
+
+.panel-options p {
+    display: flex;
+    align-items: center;
+    padding: 0 0.6rem;
 }
 
 .panel-deals {
@@ -251,20 +264,21 @@ html {
     font-weight: 700;
 }
 
-/** hero section **/
+/** Hero Section **/
 
 .hero-section {
     position: relative;
     background: url("shopping-section-background.jpg") no-repeat center center;
     background-size: cover;
     width: 100%;
-    height: 37.5rem; 
+    height: 37.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 }
 
+/* Gradient overlay for text visibility */
 .hero-section::before {
     content: "";
     position: absolute;
@@ -282,9 +296,10 @@ html {
     z-index: 2;
 }
 
+/* Amazon India link style */
 .amazon-india-link {
     position: relative;
-    z-index: 2; 
+    z-index: 2;
     color: black;
     display: flex;
     width: 96.8%;
@@ -293,7 +308,7 @@ html {
     font-size: 0.9rem;
     align-items: center;
     justify-content: center;
-    margin-bottom: 4.0625rem; 
+    margin-bottom: 4.0625rem;
 }
 
 .amazon-in {
@@ -301,10 +316,11 @@ html {
     text-decoration: none;
 }
 
+/* Change link color on hover */
 .amazon-in:hover {
     color: #c7511f;
     text-decoration: underline;
-    text-decoration-color: #c7511f; 
+    text-decoration-color: #c7511f;
 }
 
 /** Shopping Section **/
@@ -313,6 +329,7 @@ main {
     background-color: #e2e7e6;
 }
 
+/* Shopping section container */
 .shopping-section {
     position: relative;
     z-index: 3;
@@ -326,25 +343,29 @@ h2 {
     font-size: 1.3rem;
 }
 
+/* Style for each box in the shopping section */
 .box {
     width: 23%;
-    height: 27rem; 
+    height: 27rem;
     background-color: white;
     padding: 1.25rem 0 1rem;
-    margin-top: 0.9375rem; 
+    margin-top: 0.9375rem;
     margin-bottom: 0.9375rem;
 }
 
+/* Adjust margin for positioning the section */
 .section-start {
-    margin-top: -18.125rem; 
+    margin-top: -18.125rem;
 }
 
+/* Image styling inside boxes */
 .box-img {
-    height: 18.75rem; 
+    height: 18.75rem;
     background-size: cover;
-    margin-top: 0.9375rem; 
+    margin-top: 0.9375rem;
 }
 
+/* Content styling inside boxes */
 .box-content {
     margin-right: 1rem;
     margin-left: 1rem;
@@ -352,68 +373,76 @@ h2 {
 
 .box-content p {
     color: #007185;
-    margin-top: 0.9375rem; 
+    margin-top: 0.9375rem;
     font-size: 0.85rem;
 }
 
+/* Change color of text on hover */
 .box-content p:hover {
     color: #c7511f;
 }
 
+/* Grid layout for images inside boxes */
 .image-grid {
     display: flex;
     flex-wrap: wrap;
-    height: 18.75rem; 
-    margin-top: 1.25rem; 
+    height: 18.75rem;
+    margin-top: 1.25rem;
     justify-content: space-between;
 }
 
+/* Individual grid item styling */
 .grid-item {
-    width: 8.75rem; 
-    height: 7.1875rem; 
+    width: 8.75rem;
+    height: 7.1875rem;
     background-size: cover;
     background-position: center;
 }
 
+/* Caption styling under grid images */
 .caption {
     display: block;
     text-align: left;
-    margin-top: 0.3125rem; 
+    margin-top: 0.3125rem;
     font-size: 0.75rem;
 }
 
-/** footer **/
+/** Footer **/
 
+/* Footer container styling */
 footer {
-    margin-top: 2rem; 
+    margin-top: 2rem;
 }
 
+/* Styling for the first footer panel */
 .foot-panel1 {
     background-color: #37475a;
     color: white;
-    height: 3.125rem; 
+    height: 3.125rem;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 0.7rem;
 }
 
+/* Styling for the second footer panel */
 .foot-panel2 {
     background-color: #222f3d;
     color: white;
-    height: 25rem; 
+    height: 25rem;
     display: flex;
     justify-content: space-evenly;
 }
 
+/* Styling for footer lists */
 ul {
-    margin-top: 1.5625rem; 
+    margin-top: 1.5625rem;
 }
 
 ul a {
     display: block;
     font-size: 0.85rem;
-    margin-top: 0.9375rem; 
+    margin-top: 0.9375rem;
     color: #dddddd;
 }
 
@@ -421,35 +450,39 @@ ul p {
     font-weight: 600;
 }
 
+/* Styling for the third footer panel */
 .foot-panel3 {
     background-color: #222f3d;
-    border-top: 0.03125rem solid #cccccc; 
-    height: 4.375rem; 
+    border-top: 0.03125rem solid #cccccc;
+    height: 4.375rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Footer logo styling */
 .footer-logo {
     background-image: url("amazon_logo.jpg");
     background-size: cover;
-    height: 3.125rem; 
-    width: 7.5rem; 
+    height: 3.125rem;
+    width: 7.5rem;
 }
 
+/* Styling for the fourth footer panel */
 .foot-panel4 {
     background-color: #0f1111;
-    height: 5rem; 
+    height: 5rem;
     color: white;
     font-size: 0.7rem;
     text-align: center;
 }
 
+/* Padding for pages section in the footer */
 .pages {
-    padding-top: 1.5625rem; 
+    padding-top: 1.5625rem;
 }
 
+/* Padding for copyright section in the footer */
 .copyright {
-    padding-top: 0.3125rem; 
+    padding-top: 0.3125rem;
 }
-
