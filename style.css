@@ -437,6 +437,7 @@ footer {
 /* Styling for footer lists */
 ul {
     margin-top: 1.5625rem;
+    list-style-type: none;
 }
 
 ul a {
