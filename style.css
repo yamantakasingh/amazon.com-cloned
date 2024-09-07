@@ -444,6 +444,12 @@ ul a {
     font-size: 0.85rem;
     margin-top: 0.9375rem;
     color: #dddddd;
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 
 ul p {
@@ -478,8 +484,18 @@ ul p {
 }
 
 /* Padding for pages section in the footer */
+
 .pages {
     padding-top: 1.5625rem;
+}
+
+.pages a{
+    color: white;
+    text-decoration: none;
+}
+
+.pages a:hover {
+    text-decoration: underline white;
 }
 
 /* Padding for copyright section in the footer */
