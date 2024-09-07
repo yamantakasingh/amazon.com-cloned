@@ -9,7 +9,7 @@ html {
 }
 
 .navbar {
-    height: 3.75rem; /* 60px */
+    height: 3.75rem; 
     background-color: #0f1111;
     color: white;
     display: flex;
@@ -20,33 +20,33 @@ html {
 /** borders **/
 
 .border {
-    border: 0.07375rem solid transparent; /* 1.5px */
-    border-radius: 0.2rem; /* 4px */
+    border: 0.07375rem solid transparent; 
+    border-radius: 0.2rem; 
 }
 
 .border:hover {
-    border: 0.07375rem solid white; /* 1.5px */
+    border: 0.07375rem solid white; 
 }
 
 .nav {
     height: 3.1rem;
     display: flex;
     align-items: center;
-    padding: 0 0.5rem 0 0.5rem;
+    padding: 0 0.5rem;
     margin-right: 0.5rem;
 }
 
 /** box1 **/
 
 .nav-logo {
-    height: 3.1rem; /* 50px */
-    width: 7.0625rem; /* 113px */
-    margin: 0 0.5rem 0 0.5rem;
+    height: 3.1rem; 
+    width: 7.0625rem; 
+    margin: 0 0.5rem;
 }    
 
 .logo {
     background-image: url("amazon-logo.jpg");
-    height: 3rem; /* 50px */
+    height: 3rem; 
     width: 100%;
     background-size: cover;
 }
@@ -56,12 +56,12 @@ html {
 .add-line-first {
     color: white;
     font-size: 0.75rem;
-    margin-left: 1.0625rem; /* 17px */
+    margin-left: 1.0625rem; 
 }
 .country {
     font-size: 0.875rem;
     font-weight: 700;
-    margin-left: 0.3125rem; /* 5px */
+    margin-left: 0.3125rem; 
 }
 
 .add-line-second {
@@ -79,28 +79,28 @@ html {
 .nav-search {
     display: flex;
     justify-content: space-evenly;
-    width: 52rem; /* 800px */
-    height: 2.8rem; /* 40px */
-    border-radius: 0.25rem; /* 4px */
-    border: 0.125rem solid transparent; /* 2px */
+    width: 52rem; 
+    height: 2.8rem; 
+    border-radius: 0.25rem; 
+    border: 0.125rem solid transparent; 
     transition: border-color 0.3s ease;
 }
 
 .nav-search:hover {
-    border: 0.125rem solid orange; /* 2px */
-    border-radius: 0.38125rem; /* 6.1px */
+    border: 0.125rem solid orange; 
+    border-radius: 0.38125rem; 
 }
 
 .search-select {
     background-color: #e5e3e3;
-    width: 3.6rem; /* 60px */
+    width: 3.6rem; 
     text-align: center;
     color: #5d5c5c;
-    border-top-left-radius: 0.25rem; /* 4px */
-    border-bottom-left-radius: 0.25rem; /* 4px */
+    border-top-left-radius: 0.25rem; 
+    border-bottom-left-radius: 0.25rem; 
     outline: none;
     font-size: 0.82rem;
-    border: 0.125rem solid transparent; /* 2px */
+    border: 0.125rem solid transparent; 
     transition: border-color 0.1s ease;
 }
 
@@ -108,7 +108,7 @@ html {
     border-color: orange;
 }
 
-.search-select:hover{
+.search-select:hover {
     background-color: #e0e0e0e5;
     color: black;
 }
@@ -117,12 +117,12 @@ html {
     width: 100%;
     font-size: 0.95rem;
     border-color: transparent;
-    padding-left: 0.625rem; /* 10px */
+    padding-left: 0.625rem; 
     outline: none;
 }
 
 .search-button {
-    width: 2.8125rem; /* 45px */
+    width: 2.8125rem; 
     height: 100%;
     display: flex; 
     justify-content: center;
@@ -132,13 +132,13 @@ html {
     font-size: 1.3rem;
     border-color: transparent;
     outline: none;
-    border-top-right-radius: 0.25rem; /* 4px */
-    border-bottom-right-radius: 0.25rem; /* 4px */
+    border-top-right-radius: 0.25rem; 
+    border-bottom-right-radius: 0.25rem; 
     transition: border-color 0.3s ease;
 }
 
 .search-button:focus {
-    border: 0.125rem solid orange; /* 2px */
+    border: 0.125rem solid orange; 
 }
 
 .search-button:hover {
@@ -148,7 +148,7 @@ html {
 /** box4 **/
 
 .nav-language-selector {
-    padding: 0.4rem 0.5rem 0rem 0.5rem;
+    padding: 0.4rem 0.5rem;
     margin-left: 0.5rem;
 }
 
@@ -203,7 +203,7 @@ html {
 
 .panel {
     width: 100%;
-    height: 2.5rem; /* 40px */
+    height: 2.5rem;
     background-color: #222f3d;
     display: flex;
     color: white;
@@ -216,7 +216,7 @@ html {
     height: 2.4rem;
     width: 3.4rem;
     margin-left: 0.5rem;
-    padding: 0 0.5rem 0 0.5rem;
+    padding: 0 0.5rem;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -224,7 +224,7 @@ html {
 
 .menu-icon {
     font-size: 1.2rem;
-    margin-right: 0.25rem; /* 4px */
+    margin-right: 0.25rem;
 }
 
 /** panel options **/
@@ -232,22 +232,21 @@ html {
 .panel-options p {
     display: flex;
     align-items: center;
-    padding: 0 0.6rem 0 0.6rem; /* 7px */
-    
+    padding: 0 0.6rem; 
 }
 
 .panel-options {
     height: 2.4rem;
     width: 82%;
     display: flex;
-    margin-left: -0.3125rem; /* -5px */ 
+    margin-left: -0.3125rem; 
 }
 
 .panel-deals {
     display: flex;
     align-items: center;
     height: 2.4rem;
-    padding: 0 0.5rem 0 0.5rem;
+    padding: 0 0.5rem;
     margin-right: 0.5rem;
     font-weight: 700;
 }
@@ -259,7 +258,7 @@ html {
     background: url("shopping-section-background.jpg") no-repeat center center;
     background-size: cover;
     width: 100%;
-    height: 37.5rem; /* 600px */
+    height: 37.5rem; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,12 +288,12 @@ html {
     color: black;
     display: flex;
     width: 96.8%;
-    height: 2.5rem; /* 40px */
+    height: 2.5rem;
     background-color: white;
     font-size: 0.9rem;
     align-items: center;
     justify-content: center;
-    margin-bottom: 4.0625rem; /* 65px */
+    margin-bottom: 4.0625rem; 
 }
 
 .amazon-in {
@@ -329,21 +328,21 @@ h2 {
 
 .box {
     width: 23%;
-    height: 27rem; /* 400px */
+    height: 27rem; 
     background-color: white;
-    padding: 1.25rem 0 1rem; /* 20px 0 15px */
-    margin-top: 0.9375rem; /* 15px */
+    padding: 1.25rem 0 1rem;
+    margin-top: 0.9375rem; 
     margin-bottom: 0.9375rem;
 }
 
 .section-start {
-    margin-top: -18.125rem; /* -290px */
+    margin-top: -18.125rem; 
 }
 
 .box-img {
-    height: 18.75rem; /* 300px */
+    height: 18.75rem; 
     background-size: cover;
-    margin-top: 0.9375rem; /* 15px */
+    margin-top: 0.9375rem; 
 }
 
 .box-content {
@@ -353,7 +352,7 @@ h2 {
 
 .box-content p {
     color: #007185;
-    margin-top: 0.9375rem; /* 15px */
+    margin-top: 0.9375rem; 
     font-size: 0.85rem;
 }
 
@@ -364,14 +363,14 @@ h2 {
 .image-grid {
     display: flex;
     flex-wrap: wrap;
-    height: 18.75rem; /* 300px */
-    margin-top: 1.25rem; /* 20px */
+    height: 18.75rem; 
+    margin-top: 1.25rem; 
     justify-content: space-between;
 }
 
 .grid-item {
-    width: 8.75rem; /* 140px */
-    height: 7.1875rem; /* 115px */
+    width: 8.75rem; 
+    height: 7.1875rem; 
     background-size: cover;
     background-position: center;
 }
@@ -379,20 +378,20 @@ h2 {
 .caption {
     display: block;
     text-align: left;
-    margin-top: 0.3125rem; /* 5px */
+    margin-top: 0.3125rem; 
     font-size: 0.75rem;
 }
 
 /** footer **/
 
 footer {
-    margin-top: 2rem; /* 25px */
+    margin-top: 2rem; 
 }
 
 .foot-panel1 {
     background-color: #37475a;
     color: white;
-    height: 3.125rem; /* 50px */
+    height: 3.125rem; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -402,19 +401,19 @@ footer {
 .foot-panel2 {
     background-color: #222f3d;
     color: white;
-    height: 25rem; /* 400px */
+    height: 25rem; 
     display: flex;
     justify-content: space-evenly;
 }
 
 ul {
-    margin-top: 1.5625rem; /* 25px */
+    margin-top: 1.5625rem; 
 }
 
 ul a {
     display: block;
     font-size: 0.85rem;
-    margin-top: 0.9375rem; /* 15px */
+    margin-top: 0.9375rem; 
     color: #dddddd;
 }
 
@@ -424,8 +423,8 @@ ul p {
 
 .foot-panel3 {
     background-color: #222f3d;
-    border-top: 0.03125rem solid #cccccc; /* 0.5px */
-    height: 4.375rem; /* 70px */
+    border-top: 0.03125rem solid #cccccc; 
+    height: 4.375rem; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -434,22 +433,23 @@ ul p {
 .footer-logo {
     background-image: url("amazon_logo.jpg");
     background-size: cover;
-    height: 3.125rem; /* 50px */
-    width: 7.5rem; /* 120px */
+    height: 3.125rem; 
+    width: 7.5rem; 
 }
 
 .foot-panel4 {
     background-color: #0f1111;
-    height: 5rem; /* 80px */
+    height: 5rem; 
     color: white;
     font-size: 0.7rem;
     text-align: center;
 }
 
 .pages {
-    padding-top: 1.5625rem; /* 25px */
+    padding-top: 1.5625rem; 
 }
 
 .copyright {
-    padding-top: 0.3125rem; /* 5px */
+    padding-top: 0.3125rem; 
 }
+
